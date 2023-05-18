@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio of Magdaline Jesica Gomes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37fd7c136e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+         
+            <nav  >
+                <h1 class="nav" style="  color: rgb(220, 24, 89);">M<span class="nav" style=" color:rgb(255, 248, 248)">J.</span></h1>
+                <!-- ==================== -->
+                
+                <ul class="logo" id="sideMenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#services"> services </a></li>
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+
+                    <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div>
+                <div class="header-text">
+                    <!-- no the diff between uiux desginer n frontend dev n then put p tag  -->
+                    <p>Frontend Developer</p>
+                   <h1>Hi, I'm<span>Magdaline<br>Jesica Gomes</span><br>From UK </h1> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================about ============= -->
+    <div id="about">
+        <div>
+            <div class="container">
+                <div>
+                    <div class="row">
+                      
+                            <div class="about-col-1">
+                                <img src="pics/my-bg.png" alt=""></div>
+                        
+                            <div class="about-col-2">
+                                <h1 class="subtitle">Few things about myself</h1>
+                                <p>I was born in Bangladesh and raised as well. My family now lives in London, England. I couldn't complete my BSc; but nothing could stop my passion for entering into tech career. Coding is something I really enjoy. I love problem solving and logical expressions.
+                                 <br> Currently I am working in a Full Time job, along with learning to code programming languages and frame works.
+                                </p>
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="openTab('skills')">Skills </p>
+                                    <p class="tab-links" onclick="openTab('experience')">Experience </p>
+                                    <p class="tab-links" onclick="openTab('education')">Education </p>
+                                 </div>
+                                 <div>
+                                    <div class="tab-contents active-tab" id="skills">
+                                        <ul>
+                                            <li><span>UI/UX Design</span><br>Designing web/app interfaces.</li>
+                                            <li><span>Web Devevlopment</span><br>Bringing life to web template contents.</li>
+                                            <li><span>Debugging Skill</span><br>Fluent in Chrome Developer Tool debugging.</li>
+                                            <li><span>Knowledge of Code Versioning Tool</span><br>Familar with Git & Netlify.</li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="experience">
+                                        <ul>
+                                            <li><span>Lounge Host</span><br> Qatar Airways First & Premium Class Lounge (Aug/2022 - Present)</li>
+                                            <li><span>FOH Supervisor</span><br>Franco Manca (Jun/2021 - Aug/2022)</li>
+                                            <li><span>Private Tutor</span><br>Primary & Secondary School Students (2018 - 2020)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="education">
+                                        <ul>
+                                            <li><span>web Devevlopment Course</span><br>Programming Hero (Present)</li>
+                                            <li><span>HSC</span><br>YWCA Higher Secondary Girls' School (2017)</li>
+                                            <li><span>SSC</span><br>St. Thecla's Girls' High School (2015)</li>
+                                        </ul>
+                                    </div>
+                                 </div>
+                            </div>
+                            
+       
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============services========= -->
+    <div>
+        <div id="services">
+            <div class="container">
+                <!-- look for to add font awesome icons in the video at 42 mins -->
+                    <h1 class="sub-title" style="margin-left:30px;">My Expertise</h1>
+                    <div class="services-list">
+                        <div>
+                            <h2>Web design Languages</h2>
+                            <p>Fluent in HTML5, CSS3, TypeScript, JavaScript. Intertested to learn Python.</p>
+                            <a href="#portfolio"> learn more</a>
+                        </div>
+                        <div>
+                            <h2>FrameWork</h2>
+                            <p>Fluent in Bootstrap, Tailwind. Interested to learn React JS.</p>
+                            <a href="#portfolio"> learn more</a>
+                        </div>
+                        <div>
+                            <h2>Design Tools</h2>
+                            <p>Familiar with Figma, Font Awesome, Adobe Express.</p>
+                            <a href="#portfolio"> learn more</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- ==============portfolio============= -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style="margin-left:40px;"> My Projects &#128513;</h1>
+        <div class="work-list">
+            <div class="work">
+                <img class="project-img" src="pics/Panda-commerce.png">
+                <div class="layer">
+                    <h3>Panda Commerce</h3>
+                    <p>Simple Commercial Website Template, using HTML5, CSS3 and BootStrap.</p>
+                    <a href="https://my-p-commerce.netlify.app/" target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/weather.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Live weather web app to get live temperature using JavaScript.</p>
+                    <a href="https://temperature-project.netlify.app/" target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/pin.png">
+                <div class="layer">
+                    <h3>Pin Matcher App</h3>
+                    <p>This app is designed to generate a new pin; & can verify if the correct input has been given.</p>
+                    <a href="https://verifying-pin.netlify.app/" target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/email.png">
+                <div class="layer">
+                    <h3>Email Validation</h3>
+                    <p>The site is designed for verifying the input email using regex.</p>
+                    <a href="https://email-verifying-site.netlify.app/
+                    " target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/mac-book.png">
+                <div class="layer">
+                    <h3>Shopping Cart</h3>
+                    <p>Simple Commercial Site to buy a MacBook Pro.</p>
+                    <a href="https://jessica-s-macbook-pro-site.netlify.app/
+                    " target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/bap-er-bank.png">
+                <div class="layer">
+                    <h3>Bap-Er-Bank</h3>
+                    <p>Simple Bank site Layout. Desgined to maintain simple accounts.
+                    </p>
+                    <a href="https://simple-bank-site.netlify.app/
+                    " target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/calculator.png">
+                <div class="layer">
+                    <h3>Calculator</h3>
+                    <p>Simple Calculator to do basic calculations.</p>
+                    <a href="https://jesicas-simple-calculator.netlify.app/" target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/top-player.png">
+                <div class="layer">
+                    <h3>Simple Admission Site</h3>
+                    <p> Simple email template using HTML5, CSS3, BootStrap and JavaScript.</p>
+                    <a href="https://simple-admission-site.netlify.app/" target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="project-img" src="pics/Honda-CBR.png">
+                <div class="layer">
+                    <h3>Simple Commercial Site</h3>
+                    <p>Simple email template using HTML5, CSS3 and BootStrap</p>
+                    <a href="https://my-honda-cbr-website.netlify.app/" target="_blank"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+    <!-- ==========contact============ -->
+<div id="contact">
+    <div class="container">
+            <h1 class="sub-title">Interested to Contact Me!</h1>
+            <p><i class="fa-solid fa-envelope"></i>magdalinegomes@yahoo.com</p>
+            <p><i class="fa-solid fa-phone"></i>07459166256</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/magdaline.gomes.31/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/magdaline-jesica-gomes-b39822218/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/cappuchino_princess/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div><br>
+            <a href="pics/M Jesica Gomes.pdf" download="CV-of-Magdaline-Jesica-Gomes" class="btn">Download My CV</a>
+    </div><br><br>
+    <div id="footer">
+    <p>Copyright <i class="fa-solid fa-copyright"></i>Magdaline Jesica Gomes</p>    
+    </div>
+</div>
+
+    <script>
+        // to use in about section
+        const tabContents= document.getElementsByClassName('tab-contents');
+        const tabLinks= document.getElementsByClassName('tab-links');
+        const openTab=(tabID)=>{
+            // to hide the lists
+            for(tabLink of tabLinks){
+                tabLink.classList.remove('active-link');
+            }
+            for(tabContent of tabContents){
+                tabContent.classList.remove('active-tab');
+            }
+            // to display the outher lists
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabID).classList.add('active-tab');
+        }
+
+        // to use in header nav bar 
+        const sideMenu = document.getElementById('sideMenu');
+        const openMenu=()=>{
+            sideMenu.style.right="0";
+        }
+        const closeMenu=()=>{
+            sideMenu.style.right="-220px";
+
+        }
+
+
+    </script>
+</body>
+
+
+<!-- need to attach portfoliio link in cv  -->
+<!-- need to convert my services section n other sections -->
+<!-- make responsive -->
+<!-- check all the spellings n design -->
+
+</html
+
+
