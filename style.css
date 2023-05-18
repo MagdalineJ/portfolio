@@ -47,7 +47,6 @@ nav ul li a{
 }
 /* putting hover effect */
 nav ul li a::after{
-    /* color:blue; */
     content:"";
     /* width:100%; because of it the underlinees will stay  */
     width:0;
@@ -132,7 +131,6 @@ nav ul li a:hover::after{ width:100%; }
 }
 .services-list{
     display:grid;
-    /* look for the css grid */
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap:40px;
     margin-top:50px;
